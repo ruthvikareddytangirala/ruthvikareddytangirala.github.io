@@ -936,7 +936,7 @@ section .container {
 #projects .icon-box img {
   width: 100%; /* Makes the image take up the full width of the icon-box */
   height: auto; /* Scales the height automatically to preserve aspect ratio */
-  object-fit: cover; /* Ensures the image covers the area, can be adjusted if needed */
+  object-fit: contain; /* Ensures the image covers the area, can be adjusted if needed */
   border-radius: 4px; /* Optional: Rounds the corners of the images */
   aspect-ratio: 1.5 / 1; /* Ensures the width and height are the same */
 }
